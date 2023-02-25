@@ -29,4 +29,4 @@ app.MapControllerRoute(
     name: "default",
     pattern: "{area=admin}/{controller=Home}/{action=Index}/{id?}");
 
-app.Run();
+app.Run(); 
