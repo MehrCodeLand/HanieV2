@@ -1,1 +1,13 @@
 ﻿think about front and have good structure!
+
+
+Admin{
+	Main ->{
+		*CreateAdmin
+		*MangePaint {
+			Delete
+			Edit
+		}
+		*CreatePaint
+	}
+}
